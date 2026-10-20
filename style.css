@@ -1,0 +1,26 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', sans-serif; background: #0a0a0c; color: #e0e0e0; }
+.container { max-width: 900px; margin: 0 auto; padding: 20px; }
+header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border-bottom: 1px solid #333; padding-bottom: 15px; }
+h1 { font-size: 24px; color: #b8860b; letter-spacing: 2px; }
+.stats span { margin-left: 20px; font-size: 14px; color: #aaa; }
+.logout { color: #c0392b; text-decoration: none; font-size: 14px; }
+
+.click-area { text-align: center; padding: 40px; background: #151518; border: 1px solid #333; border-radius: 12px; margin-bottom: 30px; }
+#click-btn { background: #b8860b; color: #000; border: none; padding: 20px 60px; font-size: 20px; font-weight: bold; border-radius: 8px; cursor: pointer; transition: 0.2s; }
+#click-btn:active { transform: scale(0.95); }
+.click-area p { margin-top: 15px; font-size: 13px; color: #666; }
+
+.shop-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+.item-card { background: #151518; border: 1px solid #333; border-radius: 10px; padding: 20px; }
+.item-card h3 { font-size: 16px; color: #b8860b; margin-bottom: 8px; }
+.item-card p { font-size: 12px; color: #888; margin-bottom: 15px; }
+.cost { color: #e0e0e0; font-weight: bold; }
+.buy-btn { width: 100%; padding: 10px; background: #333; color: #e0e0e0; border: 1px solid #555; border-radius: 6px; cursor: pointer; }
+.buy-btn:hover { background: #444; }
+.buy-btn:disabled { background: #222; color: #555; border-color: #333; cursor: default; }
+
+.auth-container { max-width: 350px; margin: 100px auto; text-align: center; }
+.auth-container input { display: block; width: 100%; padding: 12px; margin-bottom: 12px; background: #151518; border: 1px solid #333; color: #fff; border-radius: 6px; }
+.auth-container button { width: 100%; padding: 12px; background: #b8860b; color: #000; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; }
+.error { color: #c0392b; margin-bottom: 10px; font-size: 13px; }
